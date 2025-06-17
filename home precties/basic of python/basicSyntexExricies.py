@@ -26,13 +26,16 @@
 
 
 # 1. Same value but different objects?
-a = 2990
+# a = 2990
 # b = 299033434
-b=a
+# b=a
 
 # print(a == b)   # Value check
-print(a is b)   # Identity check
+# print(a is b)   # Identity check
 
 
+
+
+a, b = [1, 2, 3]
 
 
